@@ -1,0 +1,20 @@
+dist: xenial
+language: python
+python:
+- '3.4'
+- '3.5'
+- '3.6'
+- '3.7'
+script:
+- pytest
+deploy:
+  provider: pypi
+  user: harihar
+  password:
+    secure: kzU5UJIqRdblgeT3bozr1kwABRSK5yoldGKeJqh7T4Rqv5Wao03qlsPmLg8GAbOkalSgbrvDvX829FYWkk8x1a2bEs/5Y9V/l8EWTdaRgKAndnQ4RJvo1kDK1typVXCOk9nmLRQvYpkMxmW8NLcz9I9Qv6wG6QRxN46GTkO1GbGeonATkkJmsiYqMIm5lRATrcyOnGxPjCtDs5O9s8F9h2CzBswRe9XbyEZGG+Rno6IOYbC8Q9nN24culN4j+2Mw5i3RNwTExtoMnTipcFnuXV5GxqmgyS9AL20sTMKlLFZywbgb0k+Ui5odnZUXYJ5veA/OVsa3Ov00Kt8Idyr0VnUeUG8SoTFVMFb/z+08nYIVXzUSMDsJrD0/w3925WjZy4lK5psOpK0i4JNuQWMWnQ4F87VjWvjUamIPMNx2m3XQNzdnIzdYYxXjFnk50+92I7oJzF1kuhzaSghdOJPU1/mqN8t/sy7N5smdW2HDvXKvpC9IOwOBUWgfNfQvDiC5aSuVWc++zs5aT2PZMuoviEZ1lvGC26AwpknFT3hFEeOxAQI16OMi5mY3aiJtjFQh7tJjcj2u+bWpLAeiwHw0hCEYxi/xS15mF3YpanhtGsMnryERYhNy7Iy0v+2lVnbJr2TFx4mnW3hEbxHsV4iSqcTwihIjv4bMQ/HaoW5vka8=
+  on:
+    tags: true
+    branch: master
+  distributions: sdist bdist_wheel
+  skip_existing: true
+  skip_cleanup: true
