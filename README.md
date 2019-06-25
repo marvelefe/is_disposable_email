@@ -1,4 +1,7 @@
 # is-disposable-email
+
+![PyPI](https://img.shields.io/pypi/v/is-disposable-email.svg)
+[![Build Status](https://travis-ci.com/akhilharihar/is_disposable_email.svg?branch=master)](https://travis-ci.com/akhilharihar/is_disposable_email)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Python package to check if the email address belongs to one of [disposable email](http://en.wikipedia.org/wiki/Disposable_email_address) service provider like `mailinator.com`.
@@ -9,7 +12,7 @@ You can use it to detect or block accounts created with these addresses during s
 Install and update using pip:
 
 ```
-pip install git+https://github.com/akhilharihar/is_disposable_email.git
+pip install is-disposable-email
 ```
 
 # Examples

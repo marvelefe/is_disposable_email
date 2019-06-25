@@ -6,7 +6,7 @@ with open('README.md', 'r') as fp:
 
 setup(
     name='is_disposable_email',
-    version='0.9.1',
+    version='1.0.0',
     author='Akhil Harihar',
     author_email="hariharakhil@gmail.com",
     description='Check if the email address is from a disposable email service \
@@ -20,6 +20,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
-        'Development Status :: 4 - Beta'
+        'Development Status :: 5 - Production/Stable'
     ]
 )
