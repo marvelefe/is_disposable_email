@@ -6,7 +6,7 @@ with open('README.md', 'r') as fp:
 
 setup(
     name='is_disposable_email',
-    version='0.9.0',
+    version='0.9.1',
     author='Akhil Harihar',
     author_email="hariharakhil@gmail.com",
     description='Check if the email address is from a disposable email service \
