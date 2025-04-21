@@ -6,14 +6,14 @@ with open('README.md', 'r') as fp:
 
 setup(
     name='is_disposable_email',
-    version='1.0.0',
+    version='1.0.1',
     author='Akhil Harihar',
     author_email="hariharakhil@gmail.com",
     description='Check if the email address is from a disposable email service \
         provider',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/akhilharihar/is_disposable_email",
+    url="https://github.com/marvelefe/is_disposable_email",
     packages=['is_disposable_email'],
     classifiers=[
         'Programming Language :: Python :: 3',
