@@ -34,3 +34,5 @@ jobs:
             Changes made by running `python updater.py`
           branch: weekly-update
           base: master
+          assignees: marvelefe
+          reviewers: marvelefe
