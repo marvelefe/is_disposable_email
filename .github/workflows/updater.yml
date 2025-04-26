@@ -33,4 +33,4 @@ jobs:
             
             Changes made by running `python updater.py`
           branch: weekly-update
-          base: main
+          base: master
