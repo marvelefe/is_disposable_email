@@ -122161,6 +122161,4 @@ domains = [
   "zzz.com",
   "zzz813.com",
   "zzz98.xyz",
-  "zzzpush.icu",
-  "zzzz1717.com"
 ]
